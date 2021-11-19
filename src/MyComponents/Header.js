@@ -33,6 +33,10 @@ export default function Header(props) {
       </nav>
     )
 }
-Header.defaultProps={
-  title: "Your title here"
+Header.defaultProps = {
+    title: "Your title here"
+}
+Header.propProps = {
+    title: PropTypes.string,
+    searchBar: PropTypes.bool
 }
